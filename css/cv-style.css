@@ -12,7 +12,7 @@
 
 header {
     margin: 0 auto;
-    background-color: #BDD2D1;
+    background-color: #A29D9D;
     text-align : center;
     border-radius: 3%;
 }
@@ -31,20 +31,15 @@ header h1{
      border-radius: 50%;
 }
 
-/*#header-info p {
-    color :blue;
-    text-align:center;
-
-}*/
-#contact-from {
+#contact-form {
     width:300px;
     background:red;
 }
-    #contact-from p {
+    #contact-form p {
         color:yellow;
     }
    
-     #navigation{
+    #navigation{
     list-style-type: none;
     margin: 0;
     padding: 0;
