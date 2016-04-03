@@ -1,21 +1,19 @@
 ﻿body {
-
     background-color :#EFECEC;
     display: block;
     margin: 0 auto;
-    border: 2px;
+    border: 3px;
     border-style: solid;
-    border-radius: 1%;
     border-color: #A29D9D;
     max-width: 900px;
     font-family: 'Times New Roman', Times, serif;
+   
 }
-
 header {
     margin: 0 auto;
-    background-color: #A29D9D;
+    background-color: #154F50;
     text-align : center;
-    border-radius: 1%;
+    color:#F0FFFF;
 }
 header p {
     margin: 0;
@@ -26,45 +24,41 @@ header h1{
 figure{
     float: left;
 }
+#personal p{
+    margin: 0;
+    
+}
 .img-circle{
-    height: 130px;
-    width: 130px;
+    height: 115px;
+    width: 115px;
     border-radius: 50%;
     border: #9A8181 2px solid;
     
 }
 
-.info-table{
-    float:left;
-    display: table; 
-    width: inherit;
-    padding: 30px;
-}
-.info-table-row{
-    display: table-row;
-}
-.info-table-cell{
+.info-cell{
     float:left;
     display: table-cell;
-    padding:1em;
+    padding:30px;
     border:none;
 }
-#header-nav{
+
+#nav{
 clear: both;
 }
 .top-nav{
-
 list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-background-color: #154F50;
+background-color: rgba(21,79,80,0.6);
 }
+
 .top-nav-li{
 float: left;
 }
 
-#header-nav a {
+#nav a {
 display: block;
 color: white;
 text-align: center;
@@ -72,19 +66,55 @@ padding: 14px 16px;
 text-decoration:none;
 }
 
-#header-nav a:hover {
+#nav a:hover {
 background-color:#0D3535;
 }
 
-main{
-    background-color:#CCBFBF; 
-    padding:1px;
+#main-container{
+    background-color: #DADADA;
 }
+
 .main-sections{
-    display: table-cell;
+    display: bock;
+    margin: 5px;
+    border: 5px solid white;
+    border-radius: 10%;
+    background-color: #EFECEC;
+    
 }
+.main-sections ul{
+    list-style-type: none;
+}
+.main-sections h2 {
+    text-decoration: underline;
+}
+.main-sections details{
+    padding: 0px 0px 10px 0px;
+}
+#Education, #Skills{
+   clear:both;  
+   float: left;
+   width: 38%; 
+   padding: 0px 40px 0px 40px;
+}
+#Employment, #Languages {
+    float: right;
+    width: 38%;
+    padding: 0px 40px 0px 40px;
+}
+#Languages li, #Skills li{
+  padding:  0px 0px 5px 0px;  
+}
+
 footer{
-    background-color: yellow;
+    clear:both;
+    background-color: rgba(21,79,80,0.6);
+    text-align: center;
+    padding: 0px 0px 1px 0px;
+    
+}
+footer p {
+    margin: 5px;
 }
 #search {
 display:block;
