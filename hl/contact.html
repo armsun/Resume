@@ -14,15 +14,15 @@
         <h1>Arman Gevorgyan</h1>
         <p>Curriculum Vitae</p>
         <p>(current as
-            <time datetime="03/2016"> March 2016</time>)</p>
+            <time datetime="03/2016"> April 2016</time>)</p>
     </header>
     <div id="main-container">
-       
+
         <div id="personal">
-            <div >
-                <figure >
+            <div>
+                <figure>
                     <img class="img-circle" src="../img/img_cv.jpg" alt="CV image" />
-                </figure> 
+                </figure>
             </div>
             <div class="info-cell">
                 <p><b><em>Personal</em></b></p>
@@ -49,82 +49,68 @@
                     </address>
             </div>
         </div>
-        
-         <nav id="nav">
+
+        <nav id="nav">
             <ul class="top-nav">
-                    <li class="top-nav-li"><a href="../index.html">Home</a></li>
-                    <li class="top-nav-li"><a href="../index.html#Education">Education</a></li>
-                    <li class="top-nav-li"><a href="../index.html#Employment">Employment</a></li>
-                    <li class="top-nav-li"><a href="../index.html#Skills">Skills</a></li>
-                    <li class="top-nav-li"><a href="../index.html#Languages">Languages</a></li>
-                    <li class="top-nav-li"><input id="search" type="text" placeholder="Search"  /></li>
-                </ul>
+                <li class="top-nav-li"><a href="../index.html">Home</a></li>
+                <li class="top-nav-li"><a href="../index.html#Education">Education</a></li>
+                <li class="top-nav-li"><a href="../index.html#Employment">Employment</a></li>
+                <li class="top-nav-li"><a href="../index.html#Skills">Skills</a></li>
+                <li class="top-nav-li"><a href="../index.html#Languages">Languages</a></li>
+                <li class="top-nav-li">
+                    <input id="search" type="text" placeholder="Search" />
+                </li>
+            </ul>
         </nav>
         <main>
-        <div id="contact">
-            <form id="contact-form" name="contctform" action="" method="post">
-                <fieldset>
-                    <legend>Contact to Arman Gevorgyan</legend>
-
-                    <div>
-                        <p>
+            <div id="contact">
+                <form id="contact-form" name="contctform" action="" method="post">
+                    <fieldset>
+                        <legend>Contact to Arman Gevorgyan</legend>
+                        <div class="left">
                             <label for="Name">
-                                Your name:
-                                <strong><abbr title="required">*</abbr></strong>
-                            </label><br />
+                                <span>Your name:</span>
+                                <abbr title="required">*</abbr>
+                            </label>
                             <input id="Name" name="Full_name" placeholder="Full Name" type="text" required />
-
-                        </p>
-                    </div>
-                    <div>
-                        <p>
                             <label for="Email">
-                                E-mail:
-                                <strong><abbr title="required">*</abbr></strong>
-                            </label><br />
-                            <input id="Email" name="User_Email" placeholder="you@domain.com" type="email" required />
-
-                        </p>
-                    </div>
-                    <div>
-                        <p>
-                            <label for="Subject">
-                                Subject:
-                                <strong><abbr title="required">*</abbr></strong>
-                            </label><br />
-                            <select id="Subject" name="User_Subject" required>
-                                <option value="none">Choose subject</option>
-                                <option value="Production">Production </option>
-                                <option value="Web_Design">Web Design</option>
-                                <option value="Marketing">Marketing</option>
-                            </select>
-
-                        </p>
-                    </div>
-                    <div>
-                        <p>
-                            <label for="contact-msg">
-                                Message:
-                                <strong><abbr title="required">*</abbr></strong>
-                            </label><br />
-                            <textarea id="contact-msg" cols="25" rows="8" placeholder="Enter your message here" required></textarea>
-                        </p>
-                    </div>
-                    <div class="button">
-                        <p>
-                            <button type="submit"> Send your Message</button>
-                        </p>
-                    </div>
-                    <p>
-                        <small>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</small>
-                    </p>
-                </fieldset>
-            </form>
-        </div>
-    </main>
+                            <span>E-mail:</span>
+                                    <strong><abbr title="required">*</abbr></strong>
+                                </label>
+                                <input id="Email" name="User_Email" placeholder="you@domain.com" type="email" required />
+                        </div>
+                        <div class="right">
+                                <label for="Subject">
+                                    Subject:
+                                    <strong><abbr title="required">*</abbr></strong>
+                                </label>
+                                <br />
+                                <select id="Subject" name="User_Subject" required>
+                                    <option value="none">Choose subject</option>
+                                    <option value="Production">Production </option>
+                                    <option value="Web_Design">Web Design</option>
+                                    <option value="Marketing">Marketing</option>
+                                </select>
+                        </div>
+                        <div class="right">
+                                <label for="contact-msg">
+                                    Message:
+                                    <strong><abbr title="required">*</abbr></strong>
+                                </label>
+                                <br />
+                                <textarea id="contact-msg" cols="25" rows="8" placeholder="Enter your message here" required></textarea>
+                        </div>
+                        <div class="button">
+                                <button type="submit"> Send your Message</button>
+                        </div>
+                            <small>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</small>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
         <footer>
-        <hr />
-        <small>
+            <hr />
+            <small>
             Curriculum vitae -<em> Arman Gevorgyan</em>
             <p><em>@armsun
                 <time>
@@ -133,9 +119,9 @@
             </em>
             </p>
         </small>
-    </footer>
+        </footer>
     </div>
-    
+
 </body>
 
 </html>

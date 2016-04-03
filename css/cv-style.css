@@ -123,9 +123,47 @@ width:300px;
 }
 
 #contact-form {
-width:300px;
-background:red;
+margin: 0 auto;
+width:500px;
+background:#EFECEC;
+padding: 5px;
+border: 3px solid #9A8181;
+border-radius: 15%
 }
 #contact-form p {
-color:yellow;
+color: black;
+}
+
+#contact .left
+{
+    float:left;
+}
+
+#contact label{
+    display: block;
+}
+
+@media print{
+     *{
+         color: black;
+     }
+     nav{
+         display: none;
+     }
+     #personal{
+         float: left;
+     }
+     #sections details
+     {
+         display: list-item;
+     }
+     #sections section {
+         clear: both;
+         display: block;
+         float: left;
+         
+         
+     }
+     
+     
 }
