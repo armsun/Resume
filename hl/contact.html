@@ -71,39 +71,35 @@
                             <label for="Name">
                                 <span>Your name:</span>
                                 <abbr title="required">*</abbr>
+                                <input id="Name" name="Full_name"class="c-input" placeholder="Full Name" type="text" required />
                             </label>
-                            <input id="Name" name="Full_name" placeholder="Full Name" type="text" required />
                             <label for="Email">
-                            <span>E-mail:</span>
-                                    <strong><abbr title="required">*</abbr></strong>
-                                </label>
-                                <input id="Email" name="User_Email" placeholder="you@domain.com" type="email" required />
-                        </div>
-                        <div class="right">
-                                <label for="Subject">
-                                    Subject:
-                                    <strong><abbr title="required">*</abbr></strong>
-                                </label>
-                                <br />
-                                <select id="Subject" name="User_Subject" required>
-                                    <option value="none">Choose subject</option>
-                                    <option value="Production">Production </option>
-                                    <option value="Web_Design">Web Design</option>
-                                    <option value="Marketing">Marketing</option>
-                                </select>
-                        </div>
-                        <div class="right">
-                                <label for="contact-msg">
-                                    Message:
-                                    <strong><abbr title="required">*</abbr></strong>
-                                </label>
-                                <br />
-                                <textarea id="contact-msg" cols="25" rows="8" placeholder="Enter your message here" required></textarea>
-                        </div>
+                                <span>E-mail:</span>
+                                <abbr title="required">*</abbr></strong>
+                                <input id="Email" name="User_Email" class="c-input" placeholder="you@domain.com" type="email" required />
+                            </label>
+                            <label for="Subject">
+                                    <span>Subject:</span>
+                                    <abbr title="required">*</abbr>
+                                    <select id="Subject" name="User_Subject"class="c-input" required>
+                                        <option value="none">Choose subject</option>
+                                        <option value="Production">Production </option>
+                                        <option value="Web_Design">Web Design</option>
+                                        <option value="Marketing">Marketing</option>
+                                    </select>
+                             </label>
+                             <label for="contact-msg">
+                                    <span>Message:</span>
+                                    <abbr title="required">*</abbr>
+                                    <textarea id="contact-msg"  class="c-input" cols="35" rows="8" placeholder="Enter your message here" required></textarea>
+                            </label>
+                       
                         <div class="button">
                                 <button type="submit"> Send your Message</button>
                         </div>
-                            <small>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</small>
+                        <footer>
+                            <small>Required fields are followed by <abbr title="required">*</abbr>.</small>
+                        </footer>
                     </fieldset>
                 </form>
             </div>

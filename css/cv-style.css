@@ -9,6 +9,7 @@
     font-family: 'Times New Roman', Times, serif;
    
 }
+/*-----main header start-----*/
 header {
     margin: 0 auto;
     background-color: #154F50;
@@ -21,6 +22,14 @@ header p {
 header h1{
     margin:0 0 25px 0;
 }
+
+/*-----main header end-----*/
+
+
+#main-container{
+    background-color: #DADADA;
+}
+/*-----info panel start-----*/
 figure{
     float: left;
 }
@@ -42,7 +51,8 @@ figure{
     padding:30px;
     border:none;
 }
-
+/*-----info panel end-----*/
+/*-----main nav start-----*/
 #nav{
 clear: both;
 }
@@ -69,11 +79,9 @@ text-decoration:none;
 #nav a:hover {
 background-color:#0D3535;
 }
+/*-----main nav end-----*/
 
-#main-container{
-    background-color: #DADADA;
-}
-
+/*-----main Sections start-----*/
 .main-sections{
     display: bock;
     margin: 5px;
@@ -105,7 +113,8 @@ background-color:#0D3535;
 #Languages li, #Skills li{
   padding:  0px 0px 5px 0px;  
 }
-
+/*-----main Sections end-----*/
+/*-----main footer start-----*/
 footer{
     clear:both;
     background-color: rgba(21,79,80,0.6);
@@ -116,32 +125,59 @@ footer{
 footer p {
     margin: 5px;
 }
+/*-----main footer end-----*/
 #search {
 display:block;
 padding:14px 5px;
 width:300px;
 }
 
+/*-----Contact form start-----*/
 #contact-form {
-margin: 0 auto;
-width:500px;
+margin: 7px auto;
+width:400px;
 background:#EFECEC;
 padding: 5px;
 border: 3px solid #9A8181;
-border-radius: 15%
+border-radius: 8%
 }
-#contact-form p {
-color: black;
+#contact-form fieldset{
+    border:0;
+    box-shadow: none;
 }
-
-#contact .left
-{
-    float:left;
+#contact-form legend{
+    color: brown;
+    font-size: 20px;
 }
 
 #contact label{
     display: block;
 }
+#contact .left
+{
+    padding: 15px;
+    float:left;
+    width: 50%;
+    margin-left: 25px
+}
+#contact .left label{
+    margin-bottom: 20px;
+}
+#contact .c-input {
+    margin-top: 5px;
+}
+#contact-form footer{
+    clear: both;
+    color:red;
+    background-color: inherit;
+    padding: 0 auto;
+}
+.button{
+    float: left;
+}
+/*-----Contact form end-----*/
+
+/*-----MEDIA-----*/
 
 @media print{
      *{
